@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        .food-container{
+            display: grid;
+            grid-template-columns: repeat(3 ,1fr);
+            gap: 5px;
+        }
+        .food{
+            border: 2px solid goldenrod;
+            border-radius: 5px;
+
+        }
+        .food img{
+            width: 300px;
+            margin: 30px 30px;
+            border-radius: 10px 10px 5px 5px;
+            box-shadow: 3px 3px 5px 10px grey;
+
+        }
+        .food p{
+            text-align: center;
+            color: rgb(71, 107, 18);
+            padding: 15px;
+        }
+        button{
+            background-color: goldenrod;
+            margin-left: 40%;
+            border: none;
+            padding: 12px;
+            color: #fff;
+            font-size: 24px;
+            border-radius: 4px;
+            
+        }
+        @media screen and (width:576px) {
+            .food-container{
+                grid-template-columns: repeat(2, 2fr);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- .food-container>.food*12>img[src=".food.webp"]+p>lorem20+p>{price:/$00}^button{buy-now} -->
+    <div class="food-container">
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, officiis obcaecati? Dicta libero ratione, veritatis deserunt quibusdam atque consequatur quo?
+                <p>price:/100</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Laudantium quo illo atque officia ut voluptatum, est sed, doloribus, nobis suscipit numquam. Eligendi veritatis cumque ex voluptates explicabo rerum.
+                <p>price:/200</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Vel iure quo quos! Officia cupiditate corrupti temporibus expedita, consectetur debitis animi fuga architecto eius modi aspernatur ea laudantium pariatur.
+                <p>price:/300</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Exercitationem mollitia maiores tempore quisquam et neque libero corporis eius accusantium, eveniet aperiam nam laborum minima nobis blanditiis! Est, dolores.
+                <p>price:/400</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Aut reiciendis, quos qui fuga esse aliquam fugit? Nesciunt incidunt eos maxime ab animi ipsam nam, debitis ullam quasi voluptatem!
+                <p>price:/500</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Iusto doloribus consequatur odit ipsam velit enim eligendi repudiandae adipisci odio itaque inventore aspernatur voluptatem voluptas, deserunt veniam mollitia perferendis.
+                <p>price:/600</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Accusamus, eius, porro earum cumque commodi saepe a qui ducimus impedit debitis illo ipsum eligendi vitae, sapiente suscipit quae sint?
+                <p>price:/700</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Incidunt iusto, in eos officiis reiciendis ullam ratione sint explicabo quisquam iste consequatur tempore consectetur sapiente. Dolorem possimus nesciunt quo.
+                <p>price:/800</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Adipisci, veritatis alias, explicabo ipsa error odio est similique quod quia minima earum voluptas. Rerum aperiam necessitatibus adipisci eum sapiente.
+                <p>price:/900</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Sunt, dolore. Quasi enim est veniam atque, asperiores qui praesentium commodi illo quis labore non sed hic odio. Quibusdam, officia.
+                <p>price:/1000</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Similique, minima! Expedita esse laborum labore corporis deleniti. Impedit reiciendis dignissimos architecto ipsam facere, aspernatur odio dolor porro eius numquam!
+                <p>price:/1100</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+        <div class="food">
+            <img src="./food.webp" alt="">
+            <p>
+                Alias saepe est cum suscipit quam. Harum impedit, consectetur, eum tempora quia libero earum, doloremque corrupti quibusdam incidunt recusandae praesentium.
+                <p>price:/1200</p>
+                <button>buy-now</button>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
